@@ -10,7 +10,7 @@ export default function DetailsScreen() {
   return (
     <View style={styles.container}>
       <Text>Details Screen</Text>
-      <TextInput placeholder='Hola gordo' onChangeText={setMensaje}/>
+      <TextInput placeholder='Ingrese texto' onChangeText={setMensaje}/>
       <TouchableOpacity style={styles.boton} onPress={() => alertaMarap()}><Text>Marapode</Text></TouchableOpacity>
       <Image source={require('../assets/fotoPerfil.jpg')} />
     </View>
